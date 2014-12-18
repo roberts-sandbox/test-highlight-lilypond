@@ -21,7 +21,7 @@ void loop() {
   // read the input pin:
   int buttonState = digitalRead(pushButton);
   // print out the state of the button:
-  Serial.println(buttonState);
+  Serial.println(buttonState); /
   delay(1);        // delay in between reads for stability
 }
 
